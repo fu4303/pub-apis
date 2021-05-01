@@ -1,7 +1,6 @@
 import { Flex, Heading, Box, Text } from "@chakra-ui/react";
 
 import AccessibleLink from "../AccessibleLink";
-import AppMenu from "./AppMenu";
 import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
@@ -18,7 +17,6 @@ const Header = () => {
 
       <Box marginLeft="auto" textAlign="right" flexBasis="40%">
         <ThemeToggle />
-        <AppMenu />
       </Box>
     </Flex>
   );
